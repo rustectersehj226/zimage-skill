@@ -29,6 +29,8 @@ Claude：好的，我来帮你生成这张图片...
 
 ## 安装步骤
 
+> 所有步骤都可以在 Claude Code 中用自然语言完成，无需手动输入命令！
+
 ### 第一步：获取免费 API Key
 
 1. 访问 [ModelScope 官网](https://modelscope.cn)
@@ -36,55 +38,35 @@ Claude：好的，我来帮你生成这张图片...
 3. 登录后，访问 [API Token 页面](https://modelscope.cn/my/myaccesstoken)
 4. 点击「创建 Token」，复制生成的 API Key
 
-### 第二步：配置 API Key
+### 第二步：安装技能
 
-**方法一：在 Claude Code 设置中配置（推荐）**
+打开 Claude Code，直接说：
 
-编辑 `~/.claude/settings.json`，添加环境变量：
-
-```json
-{
-  "env": {
-    "MODELSCOPE_API_KEY": "你的API Key"
-  }
-}
+```
+帮我安装 zimage-skill，仓库地址是 https://github.com/yizhiyanhua-ai/zimage-skill
 ```
 
-**方法二：在终端中设置**
+Claude 会自动帮你完成：
+- 下载技能到正确的目录
+- 安装所需的 Python 依赖
 
-```bash
-# macOS / Linux
-export MODELSCOPE_API_KEY="你的API Key"
+### 第三步：配置 API Key
 
-# 永久生效，添加到 ~/.zshrc 或 ~/.bashrc
-echo 'export MODELSCOPE_API_KEY="你的API Key"' >> ~/.zshrc
+在 Claude Code 中说：
+
+```
+帮我配置 MODELSCOPE_API_KEY 环境变量，值是 ms-xxxxxxxx（替换成你的 API Key）
 ```
 
-### 第三步：安装技能
+或者你也可以说：
 
-**方法一：使用 Git 克隆（推荐）**
-
-```bash
-# 克隆仓库到 Claude Code skills 目录
-git clone https://github.com/yizhiyanhua-ai/zimage-skill.git ~/.claude/skills/zimage-skill
-
-# 安装 Python 依赖
-pip install -r ~/.claude/skills/zimage-skill/requirements.txt
 ```
-
-**方法二：手动下载**
-
-1. 从 [GitHub Releases](https://github.com/yizhiyanhua-ai/zimage-skill/releases) 下载最新版本
-2. 解压到 `~/.claude/skills/zimage-skill/` 目录
-3. 安装 Python 依赖：
-
-```bash
-pip install requests Pillow
+帮我在 ~/.claude/settings.json 中添加环境变量 MODELSCOPE_API_KEY，值是 ms-xxxxxxxx
 ```
 
 ### 第四步：验证安装
 
-在 Claude Code 中输入：
+重启 Claude Code 后，直接说：
 
 ```
 帮我生成一张测试图片

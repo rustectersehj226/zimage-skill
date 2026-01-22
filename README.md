@@ -29,6 +29,8 @@ Claude: I'll generate that image for you...
 
 ## Installation
 
+> All steps can be completed using natural language in Claude Code - no manual commands needed!
+
 ### Step 1: Get Your Free API Key
 
 1. Visit [ModelScope](https://modelscope.cn)
@@ -36,55 +38,35 @@ Claude: I'll generate that image for you...
 3. After logging in, go to [API Token page](https://modelscope.cn/my/myaccesstoken)
 4. Click "Create Token" and copy your API Key
 
-### Step 2: Configure API Key
+### Step 2: Install the Skill
 
-**Option A: Configure in Claude Code settings (Recommended)**
+Open Claude Code and simply say:
 
-Edit `~/.claude/settings.json` and add the environment variable:
-
-```json
-{
-  "env": {
-    "MODELSCOPE_API_KEY": "your-api-key-here"
-  }
-}
+```
+Install zimage-skill from https://github.com/yizhiyanhua-ai/zimage-skill
 ```
 
-**Option B: Set in terminal**
+Claude will automatically:
+- Download the skill to the correct directory
+- Install the required Python dependencies
 
-```bash
-# macOS / Linux
-export MODELSCOPE_API_KEY="your-api-key-here"
+### Step 3: Configure API Key
 
-# To make it permanent, add to ~/.zshrc or ~/.bashrc
-echo 'export MODELSCOPE_API_KEY="your-api-key-here"' >> ~/.zshrc
+In Claude Code, say:
+
+```
+Configure MODELSCOPE_API_KEY environment variable with value ms-xxxxxxxx (replace with your API Key)
 ```
 
-### Step 3: Install the Skill
+Or you can say:
 
-**Option A: Using Git Clone (Recommended)**
-
-```bash
-# Clone the repository to Claude Code skills directory
-git clone https://github.com/yizhiyanhua-ai/zimage-skill.git ~/.claude/skills/zimage-skill
-
-# Install Python dependencies
-pip install -r ~/.claude/skills/zimage-skill/requirements.txt
 ```
-
-**Option B: Manual Download**
-
-1. Download the latest release from [GitHub Releases](https://github.com/yizhiyanhua-ai/zimage-skill/releases)
-2. Extract to `~/.claude/skills/zimage-skill/`
-3. Install Python dependencies:
-
-```bash
-pip install requests Pillow
+Add MODELSCOPE_API_KEY environment variable to ~/.claude/settings.json with value ms-xxxxxxxx
 ```
 
 ### Step 4: Verify Installation
 
-In Claude Code, type:
+After restarting Claude Code, simply say:
 
 ```
 Generate a test image for me
