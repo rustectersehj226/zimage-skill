@@ -1,5 +1,9 @@
 # Z-Image Skill - AI Image Generation for Claude Code
 
+<p align="center">
+  <img src="./icon.png" alt="Z-Image Skill Icon" width="128" height="128">
+</p>
+
 > Generate beautiful images with natural language in Claude Code!
 
 English | [中文](./README_CN.md)

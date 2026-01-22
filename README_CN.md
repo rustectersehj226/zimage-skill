@@ -1,5 +1,9 @@
 # Z-Image Skill - AI 图片生成技能
 
+<p align="center">
+  <img src="./icon.png" alt="Z-Image Skill Icon" width="128" height="128">
+</p>
+
 > 让 Claude Code 帮你用自然语言生成精美图片！
 
 [English](./README.md) | 中文
