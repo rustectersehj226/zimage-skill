@@ -62,16 +62,21 @@ echo 'export MODELSCOPE_API_KEY="your-api-key-here"' >> ~/.zshrc
 
 ### Step 3: Install the Skill
 
-**Option A: Using npx (Recommended)**
+**Option A: Using Git Clone (Recommended)**
 
 ```bash
-npx @anthropic-ai/claude-code-skill install zimage-skill
+# Clone the repository to Claude Code skills directory
+git clone https://github.com/yizhiyanhua-ai/zimage-skill.git ~/.claude/skills/zimage-skill
+
+# Install Python dependencies
+pip install -r ~/.claude/skills/zimage-skill/requirements.txt
 ```
 
-**Option B: Manual Installation**
+**Option B: Manual Download**
 
-1. Download this project to `~/.claude/skills/zimage-skill/`
-2. Install Python dependencies:
+1. Download the latest release from [GitHub Releases](https://github.com/yizhiyanhua-ai/zimage-skill/releases)
+2. Extract to `~/.claude/skills/zimage-skill/`
+3. Install Python dependencies:
 
 ```bash
 pip install requests Pillow
